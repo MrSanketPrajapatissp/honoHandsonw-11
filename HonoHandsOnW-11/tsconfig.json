@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ESNext"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    /* This is the missing line. It tells TypeScript to load the
+       type definitions for the Cloudflare Workers runtime. */
+    "types": ["@cloudflare/workers-types"]
+  }
+}
+  
